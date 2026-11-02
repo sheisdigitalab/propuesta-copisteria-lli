@@ -468,6 +468,12 @@ footer .big { color: #fff; }
 .quote-tab { clip-path: none; border-radius: 10px; margin-block: 10px; padding: 0 20px; }
 @media (max-width: 860px) { .quote-tab { padding: 0 14px; font-size: .84rem; } }
 @media (max-width: 880px) { .visit-grid { grid-template-columns: 1fr !important; } }
+/* Mòbil: zones tàctils còmodes (≥44 px) i banner de prototip llegible, sense canviar l'aspecte */
+@media (max-width: 860px) {
+  .lang button { padding: 15px 10px; margin: -9px -1px; }
+  .quote-tab { min-height: 44px; margin-block: 6px; }
+  .proto { font-size: .72rem; }
+}
 </style>
 </head>
 <body>
